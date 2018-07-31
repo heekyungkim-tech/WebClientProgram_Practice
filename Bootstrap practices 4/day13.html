@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!---Require meta tag--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+
+    <!---Bootstrap CSS--->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>bootstrap</title>
+  </head>
+  <body >
+    <!--Jumbotron-->
+    <header class='jumbotron'>
+      <div class='container'>
+        <div class="display-2 mb-4">Our Mission</div>
+        <p class="lead">Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+    </header>
+  </div><!--end of Jumbotron-->
+
+    <h1>Bootstrap</h1>
+      <ul class='nav nav-tabs'>
+        <li class='nav-item'><a href="#" class='nav-link active'>Home</a></li>
+        <li class='nav-item'><a href="#" class='nav-link'>Service</a></li>
+        <li class='nav-item'><a href="#" class='nav-link'>Mission Statement</a></li>
+        <li class='nav-item'><a href="#" class='nav-link'>Testimonial</a></li>
+      </ul>
+     <hr/>
+     <h3>navigation links using divs</h3>
+     <div class='nav nav-pills flex-column flex-md-row'>
+       <a href="#" class='nav-item nav-link active'>Home</a>
+       <a href="#" class='nav-item nav-link'>Service</a>
+       <a href="#" class='nav-item nav-link'>Mission Statement</a>
+       <a href="#" class='nav-item nav-link'>Testimonial</a>
+     </div>
+     <hr/>
+     <h3> navigation links using navbar</h3>
+     <div class='navbar bg-dark navbar-dark navbar-expand-sm'>
+       <!--create a div for the navbar-brand-->
+       <div class='navbar-brand'>By: Heekyung Kim</div>
+       <!--div for navigation links-->
+        <div class='navbar-nav'>
+          <a href="#" class='nav-link active'>Home</a>
+          <a href="#" class='nav-link'>Service</a>
+          <a href="#" class='nav-link'>Mission Statement</a>
+          <a href="#" class='nav-link'>Testimonial</a>
+        </div>
+      </div>
+      <hr/>
+      <div class='navbar bg-dark navbar-dark navbar-expand-sm'>
+        <!--create a space for the navbar-brand-->
+        <a class='navbar-brand' href="#"><img src="images/image.png" style='width:40px;' alt='wisdompet logo'/></a>
+        <!--div for navigation links-->
+         <div class='navbar-nav'>
+           <a href="#" class='nav-link active'>Home</a>
+           <a href="#" class='nav-link'>Service</a>
+           <a href="#" class='nav-link'>Mission Statement</a>
+           <a href="#" class='nav-link'>Testimonial</a>
+         </div>
+       </div>
+       <hr/>
+       <h3>Dropdown</h3>
+       <div class='container'>
+         <nev class='navbar bg-dark navbar-dark navbar-expand-sm'>
+           <!--create a space for the navbar-brand-->
+           <a class='navbar-brand' href="#">
+             <img src="images/wisdompetlogo.svg" style='width:40px;' alt='wisdompet logo'/>
+           </a>
+           <!--create a hamburger button to show the collapse nav list-->
+           <button type="button" class='navbar-toggler' data-toggle='collapse' data-target='#collapseTab'>
+             <span class='navbar-toggler-icon'></span>
+           </button><!--end of collapse button-->
+
+           <!--create a div to specified the collapse session-->
+           <div class='collapse navbar-collapse' id='collapseTab'>
+           <!--nav list-->
+           <div class='navbar-nav'>
+             <a href="#" class='nav-link active'>Home</a>
+             <a href="#" class='nav-link'>Service</a>
+             <a href="#" class='nav-link'>Mission Statement</a>
+             <a href="#" class='nav-link'>Testimonial</a>
+           </div>
+        </div><!--end of navigation list-->
+      </nav>
+    </div><!--end of navigation list-->
+
+      <!--Optional JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
